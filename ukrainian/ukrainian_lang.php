@@ -1,6 +1,6 @@
 <?php
 
-# Version 1.0.3
+# Version 1.0.4
 #
 # General
 $lang['id']                   = 'ІД';
@@ -1114,12 +1114,12 @@ $lang['clients_estimate_failed_action']         = 'Не вдалося прий�
 $lang['client_add_edit_profile']                = 'Обліковка';
 
 # Custom Fields
-$lang['custom_field']                          = 'Поле для користувачів';
-$lang['custom_field_lowercase']                = 'Поле для користувачів';
-$lang['custom_fields']                         = 'Поле для користувачів';
-$lang['new_custom_field']                      = 'Нове поле для користувачів';
-$lang['custom_field_name']                     = 'Ім\'я поля';
-$lang['custom_field_add_edit_type']            = 'Вид';
+$lang['custom_field']                          = 'Додаткове поле';
+$lang['custom_field_lowercase']                = 'Додаткове поле';
+$lang['custom_fields']                         = 'Додаткове поле';
+$lang['new_custom_field']                      = 'Нове додаткове поле';
+$lang['custom_field_name']                     = 'Ім\'я додаткового поля';
+$lang['custom_field_add_edit_type']            = 'Тип';
 $lang['custom_field_add_edit_belongs_top']     = 'Поле належить до';
 $lang['custom_field_add_edit_options']         = 'Опції';
 $lang['custom_field_add_edit_options_tooltip'] = 'Використовуйте лише для типів Вибрати, Чекбокс. Заповніть поле, параметри вкажіть через кому. Напр.: яблуко, апельсин, банан';
@@ -1134,7 +1134,7 @@ $lang['custom_field_add_edit_disabled']        = 'Відключено';
 $lang['ticket_reply'] = 'Відповідь на запит';
 
 # Admin Customizer Sidebar
-$lang['asc_custom_fields'] = 'Поле для користувачів';
+$lang['asc_custom_fields'] = 'Додаткове поле';
 
 # Contracts
 $lang['contract_types']           = 'Види договорів';
@@ -1180,7 +1180,7 @@ $lang['calendar_estimate']          = 'Кошторис';
 $lang['calendar_invoice']           = 'Рахунок на оплату';
 $lang['calendar_contract']          = 'Договір';
 $lang['calendar_customer_reminder'] = 'Нагадування замовнику';
-$lang['calendar_event']             = 'Подія';
+$lang['calendar_event']             = 'Подія';	
 $lang['calendar_task']              = 'Завдання';
 
 # Leads
@@ -1427,7 +1427,7 @@ $lang['expense_list_unbilled'] = 'Рахунок не виставлений';
 
 # Leads
 $lang['lead_merge_custom_field']          = 'Об\'єднати в якості поля користувача';
-$lang['lead_merge_custom_field_existing'] = 'Об\'єднати з полем базі даних';
+$lang['lead_merge_custom_field_existing'] = 'Об\'єднати з полем в базі даних';
 $lang['lead_dont_merge_custom_field']     = 'Не об\'єднуйте';
 $lang['lost_leads']                       = 'Втрачені потенційні замовники';
 $lang['junk_leads']                       = 'Спам';
@@ -1653,9 +1653,9 @@ $lang['proposals_customers_related']            = 'Прив\'язані замо
 $lang['proposal_related']                       = 'Для';
 $lang['proposal_for_lead']                      = 'Контакта';
 $lang['proposal_for_customer']                  = 'Замовника';
-$lang['proposal']                               = 'Пропозиція';
+$lang['proposal']                               = 'Пропозиції';
 $lang['proposal_lowercase']                     = 'пропозиція';
-$lang['proposals']                              = 'Пропозиція';
+$lang['proposals']                              = 'Пропозиції';
 $lang['proposals_lowercase']                    = 'пропозиція';
 $lang['new_proposal']                           = 'Нова пропозиція';
 $lang['proposal_currency']                      = 'Валюта';
@@ -2286,7 +2286,7 @@ $lang['new_contact']                             = 'Новий контакт';
 $lang['contact']                                 = 'Контакт';
 $lang['contact_lowercase']                       = 'Контакт';
 $lang['contact_primary']                         = 'Первинний контакт';
-$lang['contact_position']                        = 'Позиція';
+$lang['contact_position']                        = 'Посада';
 $lang['contact_active']                          = 'Активність';
 $lang['client_company_info']                     = 'Інформація про компанію';
 $lang['proposal_save']                           = 'Зберегти пропозицію';
@@ -2623,7 +2623,7 @@ $lang['invoice_recurring_days']   = $lang['expense_recurring_days'];
 $lang['invoice_recurring_weeks']  = $lang['expense_recurring_weeks'];
 
 # Version 1.2.4
-$lang['document_direction']                                 = 'Налаштування напряму тексту';
+$lang['document_direction']                                 = 'Напрям тексту';
 $lang['notify_project_members_status_change']               = 'Повідомляти учасників проекту про статус проекту';
 $lang['not_project_status_updated']                         = 'Статус проекту оновлено з %s до %s';
 $lang['ticket_not_found']                                   = 'Запит не знайдено';
@@ -3171,7 +3171,7 @@ $lang['hide_tasks_on_main_tasks_table']                    = 'Сховати з�
 $lang['ticket_replies_order']                              = 'Сортування відповіді запиту';
 $lang['ticket_replies_order_notice']                       = 'Початкове повідомлення про запит завжди відображатиметься як перше.';
 $lang['invoice_cancelled_email_disabled']                  = 'Рахунок анулюється. Зніміть позначку як скасовану, щоб додати до ел.пошту для замовника';
-$lang['email_notifications']                               = 'Сповіщення ел.поштою';
+$lang['email_notifications']                               = 'Повідомлення на ел.пошту';
 $lang['invoice_activity_record_payment_email_to_customer'] = 'Платіж зареєстровано, ел.лист надіслано: %s';
 $lang['exclude_inactive']                                  = 'Виключити неактивне';
 $lang['disable_all']                                       = 'Відключити все';
@@ -3612,7 +3612,7 @@ $lang['stripe_subscription_select_plan']           = 'Вибрати тариф 
 
 # Version 2.4.1
 $lang['contract_content_permission_edit_warning'] = 'Ваші поточні дозволи не дозволяють редагувати зміст договору. Зверніться до
-                               адміністратора, щоб отримати дозволи на редагування договорів.';
+                               адміністратора, щоб отримати дозволи на редагування договорів.';
 $lang['mark_as_signed']                 = 'Позначити як підписане';
 $lang['unmark_as_signed']               = 'Зняти позначку як підписане';
 $lang['marked_as_signed']               = 'Прибрати підпис';
@@ -3787,18 +3787,18 @@ $lang['estimate_convert_to_project']                          = 'Перетво�
 $lang['estimate_items_convert_to_tasks']                      = 'Елементи, які будуть перетворені в завдання';
 
 # Version 2.9.0
-$lang['home_payment_records']                                 = 'Payment Records';
-$lang['weekly']                                               = 'Weekly';
-$lang['monthly']                                              = 'Monthly';
-$lang['failed_to_update_timesheet']                           = 'Timesheet was not updated';
-$lang['permission_create_timesheets']                         = 'Create Timesheets';
-$lang['permission_edit_timesheets']                           = 'Edit Timesheets (Global)';
-$lang['permission_edit_own_timesheets']                       = 'Edit Own Timesheets';
-$lang['permission_delete_timesheets']                         = 'Delete Timesheets (Global)';
-$lang['permission_delete_own_timesheets']                     = 'Delete own Timesheets';
-$lang['permission_edit_milestones']                           = 'Edit Milestones';
-$lang['permission_delete_milestones']                         = 'Delete Milestonea';
-$lang['add_timesheet'] 										  = 'Add timesheet';
-$lang['submit_button_bg_color']                               = 'Submit button background color';
-$lang['submit_button_text_color']                             = 'Submit button background text';
-$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
+$lang['home_payment_records']                                 = 'Платіжні документи';
+$lang['weekly']                                               = 'Щотижня';
+$lang['monthly']                                              = 'Щомісяця';
+$lang['failed_to_update_timesheet']                           = 'Обліковий час не оновлюється не оновлювався';
+$lang['permission_create_timesheets']                         = 'Створюйте облік часу';
+$lang['permission_edit_timesheets']                           = 'Редагувати облік часу (глобально)';
+$lang['permission_edit_own_timesheets']                       = 'Редагувати власний облік робочого часу';
+$lang['permission_delete_timesheets']                         = 'Видалити облік часу (глобально)';
+$lang['permission_delete_own_timesheets']                     = 'Видалити власний облік часу';
+$lang['permission_edit_milestones']                           = 'Редагувати етапи';
+$lang['permission_delete_milestones']                         = 'Видалити етапи';
+$lang['add_timesheet'] 										  = 'Додати облік часу';
+$lang['submit_button_bg_color']                               = 'Колір фону кнопки Надіслати';
+$lang['submit_button_text_color']                             = 'Текст кнопки Надіслати';
+$lang['automatically_assign_ticket_to_first_staff_responding'] = 'Автоматично призначити запит першому співробітнику, який опублікував відповідь?';
