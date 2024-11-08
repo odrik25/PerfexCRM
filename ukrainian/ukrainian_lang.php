@@ -3844,50 +3844,50 @@ $land['invoice_batch_payments']                             = 'Пакетна о
 $lang['staff_is_currently_replying']                        = '%s на даний час відповідає на запит.';
 
 # Version 2.9.4
-$lang['permission_view_timesheet_report']                  = 'View Timesheets Report';
-$lang['timesheets_overview_all_members_notice_permission'] = 'Timesheet overview for all staff members is only available for Staff with Permission to view timesheet reports and administrators.';
-$lang['show_project_on_proposal']                          = 'Show Project Name On Proposal';
-$lang['ticket_reports_staff']                              = 'Staff Member';
-$lang['ticket_reports_total_assigned']                     = 'Total Assigned Tickets';
-$lang['ticket_reports_open_tickets']                       = 'Open Tickets';
-$lang['ticket_reports_closed_tickets']                     = 'Closed Tickets';
-$lang['ticket_reports_replies_to_tickets']                 = 'Replies To Tickets';
-$lang['ticket_reports_average_reply_time']                 = 'Average Reply Time';
-$lang['home_tickets_report']                               = 'Staff Tickets Report';
-$lang['ticket_reports_average_reply_time_help']            = 'Average response time from assigned tickets.';
-$lang['created_by']                                        = 'Created by';
+$lang['permission_view_timesheet_report']                  = 'Переглянути звіт про табелі';
+$lang['timesheets_overview_all_members_notice_permission'] = 'Огляд табелів для всіх співробітників доступний лише для працівників, які мають дозвіл на перегляд звітів про табелі та адміністраторів.';
+$lang['show_project_on_proposal']                          = 'Показати назву проекту в пропозиції';
+$lang['ticket_reports_staff']                              = 'Співробітник';
+$lang['ticket_reports_total_assigned']                     = 'Загальна кількість призначених запитів';
+$lang['ticket_reports_open_tickets']                       = 'Відкриті запити';
+$lang['ticket_reports_closed_tickets']                     = 'Закриті запиті';
+$lang['ticket_reports_replies_to_tickets']                 = 'Відповіді на запити';
+$lang['ticket_reports_average_reply_time']                 = 'Середній час відповіді';
+$lang['home_tickets_report']                               = 'Звіт про запити по персоналу';
+$lang['ticket_reports_average_reply_time_help']            = 'Середній час відповіді за призначеними запитами.';
+$lang['created_by']                                        = 'Створений';
 
-$lang['staff_related_ticket_notification_to_assignee_only']      = 'Send staff-related ticket notifications to the ticket assignee only';
-$lang['staff_related_ticket_notification_to_assignee_only_help'] = 'If this option is set to Yes and the ticket does not have an assignee, notification will be sent to all staff that belongs to the ticket department';
-$lang['import_expenses']                                         = 'Import Expenses';
-$lang['show_pdf_signature_proposal']                             = 'Show PDF Signature on Proposal';
-$lang['enable_honeypot_spam_validation']                         = 'Enable Honeypot spam validation';
+$lang['staff_related_ticket_notification_to_assignee_only']      = 'Надсилання повідомлень про запити, пов'язані з співробітниками, тільки відповідальному за запит';
+$lang['staff_related_ticket_notification_to_assignee_only_help'] = 'Якщо для цього параметра встановлено значення Так і запит не має виконавця, повідомлення буде надіслано всім співробітникам, що належать до відділу запитів';
+$lang['import_expenses']                                         = 'Імпорт витрат';
+$lang['show_pdf_signature_proposal']                             = 'Показати PDF підпис у Пропозиції';
+$lang['enable_honeypot_spam_validation']                         = 'Увімкнути перевірку спаму Honeypot';
 
 # Version 3.0.0
-$lang['contracts_view_marked_as_signed'] = 'Marked As Signed';
-$lang['contracts_view_signed']           = 'signed';
-$lang['contracts_view_not_expired']      = 'Not Expired';
-$lang['contract_information']            = 'Contract Information';
-$lang['receipt']                         = 'Receipt';
-$lang['search_proposals']                = 'Search Proposals';
-$lang['search_estimates']                = 'Search Estimates';
-$lang['quick_create']                    = 'Quick Create';
+$lang['contracts_view_marked_as_signed'] = 'Позначено як підписаний';
+$lang['contracts_view_signed']           = 'підписаний';
+$lang['contracts_view_not_expired']      = 'Термін дії не минув';
+$lang['contract_information']            = 'Інформація про договір';
+$lang['receipt']                         = 'Чек';
+$lang['search_proposals']                = 'Пошук Пропозицій';
+$lang['search_estimates']                = 'Пошук оцінок';
+$lang['quick_create']                    = 'Швидке створення';
 
 
 # Version 3.0.5
-$lang['subscription_last_sent']                             = 'Last Sent';
-$lang['automatically_set_logged_in_staff_sales_agent']      = 'Automatically assign logged in staff as sale agent';
-$lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Applicable for: Estimates, invoices, proposal';
-$lang['permission_view_all_templates']                      = 'View All Templates';
-$lang['settings_contract_sign_reminder_every_days_info']    = 'Sign reminders are sent to the customer contacts after the contract is first time sent to the customer and they are automatically stopped when the contract is signed.';
-$lang['contract_sign_reminder_every_days']                  = 'Send sign reminder every (days)';
-$lang['contract_sign_reminders']                            = 'Sign Reminders';
-$lang['payment_gateway_fee_percentage']                     = 'Percentage Fee';
-$lang['payment_gateway_fee_fixed']                          = 'Fixed Fee';
-$lang['payment_attempt_amount']                             = 'Invoice Total';
-$lang['payment_attempt_fee']                                = 'Payment Fee';
-$lang['feature']                                            = 'Feature';
-$lang['capabilities']                                       = 'Capabilities';
+$lang['subscription_last_sent']                             = 'Останнє відправлене';
+$lang['automatically_set_logged_in_staff_sales_agent']      = 'Автоматично призначати зареєстрованих співробітників як агентів з продажу';
+$lang['automatically_set_logged_in_staff_sales_agent_help'] = 'Застосовується для: Кошторисів, Рахунків, Пропозицій';
+$lang['permission_view_all_templates']                      = 'Переглянути всі шаблони';
+$lang['settings_contract_sign_reminder_every_days_info']    = 'Нагадування про підписання надсилаються контактам замовника після того, як договір був надісланий замовнику вперше, і вони автоматично припиняються під час підписання договору.';
+$lang['contract_sign_reminder_every_days']                  = 'Надсилати підписані нагадування кожні (дні)';
+$lang['contract_sign_reminders']                            = 'Підписати нагадування';
+$lang['payment_gateway_fee_percentage']                     = 'Відсоткова комісія';
+$lang['payment_gateway_fee_fixed']                          = 'Фіксована комісія';
+$lang['payment_attempt_amount']                             = 'Загальна сума рахунку';
+$lang['payment_attempt_fee']                                = 'Комісія за оплату';
+$lang['feature']                                            = 'Особливість';
+$lang['capabilities']                                       = 'Можливості';
 
 # Version 3.1.0
 $lang['filter_boolean_yes'] = 'Yes';
